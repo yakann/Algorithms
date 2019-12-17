@@ -16,3 +16,10 @@ seq = [1,2,5,6,7,8,9,44,46,71,79,88]
 
 print("Searched number: 88")
 print("Result: ",binarySearch(seq,88))
+
+"""
+Worst Case: O(Logn)
+Best Case: O(1)
+
+Time Complexity: T(n) = T(n/2) + c 
+"""
