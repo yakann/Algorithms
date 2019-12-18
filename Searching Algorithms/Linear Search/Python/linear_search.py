@@ -1,8 +1,8 @@
 def linear_search(seq, f):
 
-    len_seq = len(seq)
+    seq_size = len(seq)
 
-    for i in range(0, len_seq-1):
+    for i in range(0, seq_size-1):
 
         if seq[i] == f:
             return "Founded value: "+ str(seq[i])
